@@ -1,0 +1,177 @@
+/* Estilos para la barra de navegación */
+header {
+    display: flex;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px 0;
+    justify-content: space-between;
+   
+}
+
+.navbar {
+   display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 0 20px;
+    
+}
+
+    .logo{
+      display: flex;
+    }
+
+    .logo img {
+        display: flex;
+        height: 60px;
+    }
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff6600; 
+}
+
+/* Estilos para el carrito de compras */
+.cart {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer; 
+}
+
+.cart img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#cart-count {
+    background-color: #ff6600; 
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 50%; 
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 150px;
+    font-weight: 800;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/xTiTnqESUHbmDnNsY0/giphy.gif);
+    background-position: center;
+    -webkit-background-clip: text; 
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.slogan {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.moto{ 
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 125px;
+    font-size: 125px;
+    font-weight: 800;
+    color: transparent;
+    background-image: url(imagenes/giphy.gif);
+    background-position: center;
+    -webkit-background-clip: text;
+}
+
+.CARRITO{ 
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 800;
+    color: transparent;
+    background-image: url(imagenes/no\ pasar.png.gif);
+    background-position: center;
+    -webkit-background-clip: text;
+}
+
+
+ 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+#instagram-button {
+    background-color: #405DE6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#instagram-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
